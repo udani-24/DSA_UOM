@@ -12,6 +12,8 @@
 #define INPUT_BUF  100
 #define MAX_RECENT 5
 
+
+
 typedef struct { int day, month, year; } Date;
 
 int dateToInt(Date d) { return d.year * 10000 + d.month * 100 + d.day; }
